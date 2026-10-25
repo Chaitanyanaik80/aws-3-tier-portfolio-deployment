@@ -47,8 +47,6 @@ Amazon VPC · EC2 · S3 · RDS · Application Load Balancer · ACM · Route 53 �
 
 ## Documentation
 
-## Documentation
-
 - [Architecture Overview](docs/architecture.md)
 - [AWS Project Interview Guide (PDF)](docs/AWS%203-Tier%20Portfolio%20Project.pdf)
 
