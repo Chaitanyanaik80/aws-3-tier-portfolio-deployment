@@ -40,3 +40,27 @@ The direct S3 website endpoint uses HTTP. The API endpoint uses HTTPS. CloudFron
 https://github.com/Dhana57/sample_portfolio
 
 The frontend and backend application code originated from this repository. This project focuses on my AWS infrastructure and deployment work.
+
+## Architecture Diagram
+
+```text
+                         USERS
+                           |
+                    Amazon Route 53
+                      /          \
+                     /            \
+          S3 Static Website     HTTPS API
+              (HTTP)                |
+                               Application
+                              Load Balancer
+                                   |
+                            Private EC2
+                         (Spring Boot API)
+                                   |
+                            Private Amazon
+                             RDS MySQL
+
+             Operations: IAM, SSM and CloudWatch
+```
+
+**Note:** The S3 website uses HTTP. HTTPS is configured for the API. CloudFront is not used in this implementation.
