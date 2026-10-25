@@ -47,9 +47,12 @@ Amazon VPC · EC2 · S3 · RDS · Application Load Balancer · ACM · Route 53 �
 
 ## Documentation
 
-- [Architecture and request flow](docs/architecture.md)
+## Documentation
 
-More deployment documentation and sanitized AWS screenshots will be added as the portfolio is completed.
+- [Architecture Overview](docs/architecture.md)
+- [AWS Project Interview Guide (PDF)](docs/AWS%203-Tier%20Portfolio%20Project.pdf)
+
+The guide covers the AWS architecture, networking, security groups, deployment steps, troubleshooting, monitoring, interview questions, and future improvements.
 
 ## Original Application Source
 
