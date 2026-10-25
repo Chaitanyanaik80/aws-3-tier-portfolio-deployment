@@ -69,6 +69,10 @@ My contribution to this portfolio focuses on AWS infrastructure, deployment, con
 - Evaluate Multi-AZ RDS for higher availability.
 - Verify automated application bootstrapping before relying on Auto Scaling Group replacement instances.
 
-## Disclaimer
+## Project Status
 
-This is a learning and portfolio project, not a claim of a fully production-hardened system. The documentation distinguishes implemented features from planned improvements.
+**Status:** Deployment completed; AWS environment currently inactive.
+
+The infrastructure was deployed and tested during the project. The AWS environment is no longer running because the available AWS credits were exhausted. The documentation describes the architecture and implementation completed during deployment.
+
+This repository is maintained as a portfolio of my AWS infrastructure, deployment, configuration, and troubleshooting experience.
